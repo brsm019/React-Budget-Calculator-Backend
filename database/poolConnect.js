@@ -8,7 +8,7 @@ const config = {
   user: process.env.USER,
   port: process.env.PORT || 5000,
   password: process.env.PASSWORD,
-  databaseURL: process.env.DATABASEURI,
+  databaseURL: process.env.DATABASE_URL,
   ssl: {
     rejectUnauthorized: false,
   },
