@@ -2,8 +2,6 @@ const { Pool } = require("pg");
 const dotenv = require("dotenv");
 dotenv.config();
 
-console.log("Database_URL", process.env.DATABASEURI);
-
 const config = {
   host: process.env.PGHOST,
   database: process.env.PGDATABASE,
