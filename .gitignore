@@ -2,3 +2,7 @@
 /node_modules
 
 # https://git.heroku.com/budget-trackerer.git
+
+# "node -r dotenv/config bin/www",
+
+# node app.js
