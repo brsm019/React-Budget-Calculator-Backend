@@ -12,8 +12,6 @@ var usersRouter = require("./routes/users");
 
 var app = express();
 
-// const PORT = 5432;
-
 // Add headers
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
