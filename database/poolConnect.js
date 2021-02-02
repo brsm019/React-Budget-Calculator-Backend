@@ -3,12 +3,12 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 const config = {
-  host: process.env.PGHOST,
-  database: process.env.PGDATABASE,
-  user: process.env.PGUSER,
-  port: process.env.PGPORT,
-  password: process.env.PGPASSWORD,
-  databaseUri: process.env.PGDATABASEURI,
+  host: process.env.HOST,
+  database: process.env.DATABASE,
+  user: process.env.USER,
+  port: process.env.PORT,
+  password: process.env.PASSWORD,
+  databaseUri: process.env.DATABASEURI,
   ssl: {
     rejectUnauthorized: false,
   },

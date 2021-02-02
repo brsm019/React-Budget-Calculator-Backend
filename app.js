@@ -11,7 +11,7 @@ var usersRouter = require("./routes/users");
 var app = express();
 
 // const PORT = 5432;
-const PORT = process.env.PGPORT;
+const PORT = process.env.PORT;
 
 // Add headers
 app.use(function (req, res, next) {
