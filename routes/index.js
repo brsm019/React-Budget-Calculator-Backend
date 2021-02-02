@@ -17,7 +17,7 @@ router.get("/income", async function (req, res) {
   res.json({ payload: incomeTransactions });
 });
 
-//post an income transaction
+//post an income transaction //upload
 router.post("/income", async function (req, res) {
   const newIncomeTransaction = await postIncomeTransaction(req.body);
   res.json({ payload: newIncomeTransaction });
