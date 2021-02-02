@@ -6,7 +6,7 @@ const config = {
   host: process.env.HOST,
   database: process.env.DATABASE,
   user: process.env.USER,
-  port: process.env.PORT,
+  port: process.env.PORT || 5000,
   password: process.env.PASSWORD,
   databaseURL: process.env.DATABASEURI,
   ssl: {
