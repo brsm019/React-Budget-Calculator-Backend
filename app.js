@@ -11,6 +11,7 @@ var usersRouter = require("./routes/users");
 var app = express();
 
 // const PORT = 5432;
+const PORT = process.env.PGPORT;
 
 // Add headers
 app.use(function (req, res, next) {
@@ -73,8 +74,8 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-app.listen(process.env.PGPORT, () => {
-  console.log(`listening on port ${process.env.PGPORT}`);
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
 });
 
 module.exports = app;
