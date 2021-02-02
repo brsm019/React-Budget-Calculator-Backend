@@ -6,9 +6,9 @@
 Initial designs for application were created with Figma to give a clear goal of aesthetics and functionality of the app.
 
 ### Desktop View
-![Screenshot 2021-02-02 at 17 03 28](https://user-images.githubusercontent.com/70659641/106635980-5cf5e880-6579-11eb-9e13-36e9d9b9f0eb.png)
+![Screenshot 2021-02-02 at 17 34 37](https://user-images.githubusercontent.com/70659641/106639627-11ddd480-657d-11eb-80f1-be8618044e72.png)
 ### Mobile View
-![App_image](https://user-images.githubusercontent.com/70659641/106635590-f244ad00-6578-11eb-999f-169d5407fba9.png)
+![Screenshot 2021-02-02 at 17 35 33](https://user-images.githubusercontent.com/70659641/106639633-130f0180-657d-11eb-9a96-2566fe382667.png)
 
 
 ### Frontend
