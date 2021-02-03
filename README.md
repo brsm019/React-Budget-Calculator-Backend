@@ -29,6 +29,5 @@ Alternatively,
 
 Clone down both the frontend and backend. With the frontend you will need to initialise the repo using `npm i` and then run using the command `npm start`.
 
-In terms of the backend, carry out the same steps as above.
-
+In terms of the backend, carry out the same steps as above. Once installed, try resizing the app, add some data and play around with the functionality.
 
