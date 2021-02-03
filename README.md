@@ -14,19 +14,21 @@ Initial designs for application were created with Figma to give a clear goal of 
 ### Frontend
 The frontend was created with the framework React, utilising hooks, more specifically useReducer and context api to pass functionality to components without prop drilling. CSS was isolated with module.css and the application has been designed with responsiveness in mind, using media queries to create the Progressive Web App. The application was deployed with Firebase and can be viewed here: [Budget-Calculator](https://budget-app-c059f.web.app/)
 ### Backend
-The backend and REST API were written in Nodejs, with the database being made using PostgreSQL and the server with Express. Extensive use of Postman to test the functionality of the REST API and database before connecting to the frontend and the installation of CORS dependencies to limit CORS errors when connecting both ends. Backend was deployed to Heroku.
+The backend and REST API were written in Nodejs, with the database being made using PostgreSQL and the server with Express. Extensive use of Postman to test the functionality of the REST API and database before connecting to the frontend and the installation of CORS dependencies to limit CORS errors when connecting both ends.
 
 ## How to Use
-Either navigate to the site here: [Budget-Calculator](https://budget-app-c059f.web.app/). 
+Navigate to the site here: [Budget-Calculator](https://budget-app-c059f.web.app/). 
 
-Alternatively.. 
+and
+
+clone doen the backend, you will have to create your own Heroku App by signing up and getting credentials to use within the database pool connection, remember to place these in a `.env` file and place this in a `.gitignore` file if you plan on pushing to GitHub.
+You will have to initialise the repo with `npm i` and install nodemon to automatically update.
+Once this is complete, to run the backend, execute the following command in the terminal - `nodemon app.js`. This will populate the data onto the page and will persist.
+
+Alternatively,
 
 Clone down both the frontend and backend. With the frontend you will need to initialise the repo using `npm i` and then run using the command `npm start`.
 
-In terms of the backend, you will have to create your own Heroku App by signing up and getting credentials to use within the database pool connection, remember to place these in a `.env` file and place this in a `.gitignore` file if you plan on pushing to GitHub.
-
-Again, you will have to initialise the repo with `npm i` and install nodemon to automatically update.
-
-Once this is complete, to run the backend, execute the following command in the terminal - `nodemon app.js`
+In terms of the backend, carry out the same steps as above.
 
 
