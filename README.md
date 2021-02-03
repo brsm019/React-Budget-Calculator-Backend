@@ -19,7 +19,7 @@ The backend and REST API were written in Nodejs, with the database being made us
 ## How to Use
 Navigate to the site here: [Budget-Calculator](https://budget-app-c059f.web.app/). 
 
-and
+and,
 
 clone down the backend, you will have to create your own Heroku App by signing up and getting credentials to use within the database pool connection, remember to place these in a `.env` file and place this in a `.gitignore` file if you plan on pushing to GitHub.
 You will have to initialise the repo with `npm i` and install nodemon to automatically update.
