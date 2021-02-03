@@ -21,7 +21,7 @@ Navigate to the site here: [Budget-Calculator](https://budget-app-c059f.web.app/
 
 and
 
-clone doen the backend, you will have to create your own Heroku App by signing up and getting credentials to use within the database pool connection, remember to place these in a `.env` file and place this in a `.gitignore` file if you plan on pushing to GitHub.
+clone down the backend, you will have to create your own Heroku App by signing up and getting credentials to use within the database pool connection, remember to place these in a `.env` file and place this in a `.gitignore` file if you plan on pushing to GitHub.
 You will have to initialise the repo with `npm i` and install nodemon to automatically update.
 Once this is complete, to run the backend, execute the following command in the terminal - `nodemon app.js`. This will populate the data onto the page and will persist.
 
