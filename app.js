@@ -12,6 +12,8 @@ var usersRouter = require("./routes/users");
 
 var app = express();
 
+const PORT = 5000;
+
 // Add headers
 app.use(function (req, res, next) {
   // Website you wish to allow to connect
@@ -73,8 +75,8 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`listening on port ${process.env.PORT}`);
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
 });
 
 module.exports = app;
