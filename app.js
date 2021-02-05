@@ -3,8 +3,6 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-var URL_HEROKU = require("./constants/index");
-var URL_LOCALHOST = require("./constants/index");
 var cors = require("cors");
 
 var indexRouter = require("./routes/index");
@@ -12,7 +10,7 @@ var usersRouter = require("./routes/users");
 
 var app = express();
 
-const PORT = 5432;
+const PORT = 5000;
 
 // Add headers
 app.use(function (req, res, next) {
